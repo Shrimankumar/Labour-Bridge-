@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Labour Bridge — backend starter + existing frontend
 
 This project keeps the supplied HTML frontend and adds a Node.js/Express REST API with MySQL.
@@ -42,3 +43,7 @@ Do not expose MySQL publicly. Use HTTPS, strong secrets, backups, least-privileg
 
 ## AWS deployment plan
 Recommended learning-friendly architecture: frontend on S3 + CloudFront; API on an EC2 instance behind Nginx and HTTPS; MySQL on Amazon RDS (private networking). Keep DB in private subnets/security groups, allow the API instance to connect to port 3306, and never open RDS to `0.0.0.0/0`. AWS resources can incur charges; check current pricing and set a billing budget before creating them.
+=======
+# Labour-Bridge-
+Labour Bridge is a full-stack labour job portal that connects workers with employers. Built using HTML, CSS, JavaScript, Node.js, Express.js, and MySQL, it provides user authentication, job posting and search, job applications, worker profiles, reviews, reports, and wage management. The project is designed for cloud deployment on AWS.
+>>>>>>> 3b8799957a02afd464ee49f2f08734dd795641e4
